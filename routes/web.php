@@ -15,4 +15,6 @@
 //     return view('welcome');
 // });
 
+Route::get('tes', 'ViewController@show_tes');
+
 Route::get('/', 'ViewController@show_first');
