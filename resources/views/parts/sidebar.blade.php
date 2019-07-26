@@ -26,17 +26,27 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="active treeview">
+        <li class="treeview">
           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Mobil</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+            <li class=""><a href="{{ url('form-tambah-mobil') }}"><i class="fa fa-circle-o"></i> Tambah Baru</a></li>
+            <li class=""><a href="{{ url('data-mobil') }}"><i class="fa fa-circle-o"></i> Data Mobil</a></li>
           </ul>
+        </li>
+        <li class="">
+          <a href="{{ url('form-input-penjualan') }}">
+            <i class="fa fa-dashboard"></i> <span>Input Penjualan</span>
+          </a>
         </li>
       </ul>
     </section>
